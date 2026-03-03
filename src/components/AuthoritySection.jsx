@@ -7,7 +7,6 @@ const AuthoritySection = () => {
     "NSCA-CPT (공인 퍼스널 트레이너)",
     "Advanced 스포츠 영양 코치",
     "Crossfit Lv.1",
-    "초보자 대상 운동 지침서 집필 중",
   ];
 
   return (
@@ -16,9 +15,9 @@ const AuthoritySection = () => {
         <div className="authority-header">
           <Award size={48} className="authority-icon" />
           <h2 className="authority-title">
-            "감으로 가르치지 않습니다.
+            "체계적인 커리큘럼을 통해
             <br />
-            체계적으로 자립시킵니다."
+            혼자 운동 할 수 있게끔 도와드립니다."
           </h2>
         </div>
 
