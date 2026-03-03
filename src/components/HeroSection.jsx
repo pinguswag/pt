@@ -18,10 +18,6 @@ const HeroSection = () => {
           당신을 완벽하게 독립시켜 드립니다.
         </p>
 
-        <div className="hero-image-placeholder">
-          <span>전문 코칭 이미지 영역</span>
-        </div>
-
         <div className="hero-action">
           <button className="btn btn-cta">
             내 운동 독립 가능성 무료 상담하기
