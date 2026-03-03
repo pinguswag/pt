@@ -19,9 +19,14 @@ const FinalCTASection = () => {
         </p>
 
         <div className="final-action">
-          <button className="btn btn-cta btn-large">
+          <a
+            href="https://open.kakao.com/o/sSEUoqji"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-cta btn-large"
+          >
             지금 바로 신청하기
-          </button>
+          </a>
         </div>
       </div>
     </section>
