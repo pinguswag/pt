@@ -1,5 +1,6 @@
 import React from "react";
 import { Award, CheckCircle } from "lucide-react";
+import coachProfileImg from "../assets/coach-profile.jpg";
 import "./AuthoritySection.css";
 
 const AuthoritySection = () => {
@@ -22,15 +23,15 @@ const AuthoritySection = () => {
         <div className="authority-intro">
           <div className="authority-photo-wrapper">
             <img
-              src="/src/assets/coach-profile.jpg"
+              src={coachProfileImg}
               alt="코치 프로필"
               className="authority-photo"
             />
           </div>
           <div className="authority-header">
             <h2 className="authority-title">
-              "체계적인 커리큘럼을 통해
-              혼자 운동 할 수 있게끔 도와드리겠습니다."
+              "체계적인 커리큘럼을 통해 혼자 운동 할 수 있게끔
+              도와드리겠습니다."
             </h2>
           </div>
         </div>
