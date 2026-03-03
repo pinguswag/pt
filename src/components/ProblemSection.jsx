@@ -4,10 +4,10 @@ import "./ProblemSection.css";
 
 const ProblemSection = () => {
   const problems = [
-    "헬스장 기구 앞에서 서성이다 집에 온다",
-    "PT 끝나면 다시 원상복구 된다",
-    "유튜브 따라 해도 자세가 맞는지 모르겠다",
-    "단기 속성으로 혼자 운동하는 방법만 배우고 싶다",
+    "헬스장 기구 앞에서 서성이다 러닝머신만 뛰는 분",
+    "PT 받은 이후에는 항상 막막한 분",
+    "올바른 자세가 맞는지 모르겠는 분",
+    "혼자 운동하는 방법을 배우고 싶은 분",
   ];
 
   return (
@@ -26,7 +26,7 @@ const ProblemSection = () => {
 
         <div className="highlight-box">
           <p className="highlight-text">
-            "트레이너 없이도 스스로 운동할 수 있어야
+            "스스로 운동할 수 있어야
             <br />
             <strong>진짜 당신의 근육</strong>이 됩니다."
           </p>

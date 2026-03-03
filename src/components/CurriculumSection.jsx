@@ -6,7 +6,7 @@ const CurriculumSection = () => {
   const curriculum = [
     {
       session: "1회차",
-      title: "기초 영양 + 무분할",
+      title: "기초 영양학을 통한 식단 구성법 + 무분할",
       type: "both",
     },
     {
@@ -21,12 +21,12 @@ const CurriculumSection = () => {
     },
     {
       session: "7~9회차",
-      title: "5분할 (가슴/등/어깨 집중)",
+      title: "5분할 (가슴/등/어깨)",
       type: "practical",
     },
     {
       session: "10회차",
-      title: "독립 루틴 설계 + QnA",
+      title: "나에게 맞는 분할 설정법 + 팔",
       type: "both",
     },
   ];
