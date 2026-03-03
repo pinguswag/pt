@@ -20,7 +20,7 @@ const HeroSection = () => {
 
         <div className="hero-action">
           <button className="btn btn-cta">
-            내 운동 독립 가능성 무료 상담하기
+            지금 바로 무료 상담하기
           </button>
         </div>
       </div>

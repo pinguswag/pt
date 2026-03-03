@@ -28,9 +28,9 @@ const AuthoritySection = () => {
             />
           </div>
           <div className="authority-header">
-            <Award size={40} className="authority-icon" />
             <h2 className="authority-title">
-              "체계적인 커리큘럼을 통해 혼자 운동 할 수 있게끔 도와드립니다."
+              "체계적인 커리큘럼을 통해
+              혼자 운동 할 수 있게끔 도와드리겠습니다."
             </h2>
           </div>
         </div>

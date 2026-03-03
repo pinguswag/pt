@@ -20,7 +20,7 @@ const FinalCTASection = () => {
 
         <div className="final-action">
           <button className="btn btn-cta btn-large">
-            지금 바로 운동 독립 신청하기
+            지금 바로 신청하기
           </button>
         </div>
       </div>
