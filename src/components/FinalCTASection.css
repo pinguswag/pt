@@ -1,0 +1,75 @@
+.final-cta-section {
+  padding: 100px 24px 120px;
+  /* Extra padding bottom for sticky CTA */
+  background: linear-gradient(180deg, var(--bg-color) 0%, #e0e7ff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.final-cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+  position: relative;
+  z-index: 1;
+}
+
+.urgency-badge {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.875rem;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4);
+  }
+
+  70% {
+    transform: scale(1.05);
+    box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+  }
+
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.final-title {
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+
+.highlight-number {
+  color: var(--primary);
+  font-size: 2rem;
+}
+
+.final-subtitle {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.6;
+}
+
+.final-action {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.btn-large {
+  padding: 20px;
+  font-size: 1.25rem;
+  box-shadow: 0 8px 24px rgba(249, 115, 22, 0.4);
+}

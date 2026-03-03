@@ -1,0 +1,60 @@
+.authority-section {
+  padding: var(--spacing-section) 24px;
+  background-color: var(--card-bg);
+}
+
+.authority-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.authority-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.authority-icon {
+  color: var(--primary);
+  background-color: var(--bg-color);
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.authority-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+
+.credentials-box {
+  background-color: var(--bg-color);
+  border-radius: 16px;
+  padding: 32px 24px;
+  border: 1px solid #e2e8f0;
+}
+
+.credentials-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.credential-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.credential-check {
+  color: var(--primary);
+  flex-shrink: 0;
+}

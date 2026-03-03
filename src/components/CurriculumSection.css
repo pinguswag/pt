@@ -1,0 +1,121 @@
+.curriculum-section {
+  padding: var(--spacing-section) 24px;
+  background-color: var(--bg-color);
+}
+
+.curriculum-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.badge-highlight {
+  background-color: #dbeafe;
+  color: var(--primary);
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.section-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.curriculum-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+/* Timeline vertical line */
+.curriculum-timeline::before {
+  content: "";
+  position: absolute;
+  left: 32px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background-color: #e2e8f0;
+  z-index: 0;
+}
+
+.curriculum-card {
+  background-color: var(--card-bg);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  position: relative;
+  z-index: 1;
+  border: 1px solid #f1f5f9;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.curriculum-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  border-color: #e2e8f0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.session-badge {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--text-primary);
+  background-color: #f1f5f9;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+.type-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.type-badge.theory {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.type-badge.practical {
+  background-color: #ecfdf5;
+  color: #059669;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
