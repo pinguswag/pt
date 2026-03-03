@@ -39,7 +39,7 @@ const CurriculumSection = () => {
           <h2 className="section-title">
             실기 10회 + 핵심 이론 2회
             <br />
-            55만원
+            <span className="price-highlight">55만원</span>
           </h2>
           <p className="section-subtitle">완벽한 자립을 위한 10주 커리큘럼</p>
         </div>

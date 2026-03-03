@@ -28,6 +28,14 @@
   text-transform: uppercase;
 }
 
+.price-highlight {
+  color: var(--primary);
+  font-size: 1.1em;
+  font-weight: 800;
+  background: linear-gradient(transparent 60%, rgba(37, 99, 235, 0.2) 60%);
+  padding: 0 4px;
+}
+
 .section-subtitle {
   color: var(--text-secondary);
   font-size: 1rem;
