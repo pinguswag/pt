@@ -6,55 +6,120 @@
 .authority-container {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 48px;
+}
+
+/* Intro (Photo + Title) */
+.authority-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .authority-intro {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.authority-photo-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.authority-photo {
+  width: 100%;
+  max-width: 320px;
+  max-height: 480px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 24px;
+  box-shadow:
+    0 10px 25px -5px rgba(0, 0, 0, 0.1),
+    0 8px 10px -6px rgba(0, 0, 0, 0.1);
 }
 
 .authority-header {
+  flex: 1.5;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .authority-header {
+    text-align: left;
+    align-items: flex-start;
+  }
 }
 
 .authority-icon {
   color: var(--primary);
   background-color: var(--bg-color);
-  padding: 12px;
+  padding: 10px;
   border-radius: 50%;
 }
 
 .authority-title {
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   color: var(--text-primary);
+  word-break: keep-all;
 }
 
-.credentials-box {
+/* Details (Experience + Credentials) */
+.authority-details {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   background-color: var(--bg-color);
   border-radius: 16px;
   padding: 32px 24px;
   border: 1px solid #e2e8f0;
 }
 
+.authority-section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.authority-subtitle {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--primary);
+  padding-bottom: 8px;
+  display: inline-block;
+  align-self: flex-start;
+}
+
 .credentials-list {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 12px;
 }
 
 .credential-item {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  font-weight: 600;
-  font-size: 1rem;
+  align-items: flex-start;
+  gap: 10px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  line-height: 1.4;
   color: var(--text-primary);
 }
 
 .credential-check {
   color: var(--primary);
   flex-shrink: 0;
+  margin-top: 2px;
 }
